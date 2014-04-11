@@ -16,8 +16,20 @@
  */
 package org.everit.osgi.authentication.api;
 
+/**
+ * An action that is executed in the name of a {@link Subject} and returns a result.
+ * 
+ * @param <T>
+ *            the return type of the result
+ */
 public interface AuthenticatedAction<T> {
 
+    /**
+     * Computes a result in the name of a {@link Subject}. This method is invoked by the implementation of the
+     * {@link AuthenticationService#runAs(Subject, AuthenticatedAction)} method.
+     * 
+     * @return the computed result
+     */
     T run();
 
 }
