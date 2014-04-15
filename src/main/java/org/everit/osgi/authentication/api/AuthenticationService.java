@@ -44,7 +44,7 @@ public interface AuthenticationService {
      * Logs out the given {@link Subject}. Currently not supported!
      * 
      * @param subject
-     *            the subject to log out. Cannot be null.
+     *            the subject to log out, cannot be <code>null</code>.
      */
     void logout(Subject subject);
 
