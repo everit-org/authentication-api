@@ -28,7 +28,7 @@ public interface AuthenticationContext {
      * returned by the {@link #getCurrentResourceId()} method if there is no authenticated Resource ID assigned to the
      * current thread. The value of this property is stored in the configuration.
      */
-    String PROP_DEFAULT_SUBJECT_RESOURCE_ID = AuthenticationContext.class.getName() + ".DEFAULT_RESOURCE_ID";
+    String PROP_DEFAULT_RESOURCE_ID = AuthenticationContext.class.getName() + ".DEFAULT_RESOURCE_ID";
 
     /**
      * Returns the current Resource ID of the actual thread or the default Resource ID (a.k.a. guest or not
