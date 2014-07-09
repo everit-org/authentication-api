@@ -18,56 +18,60 @@
 
 -->
 <project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
-	xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+  xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
 
-	<modelVersion>4.0.0</modelVersion>
+  <modelVersion>4.0.0</modelVersion>
 
-	<parent>
-		<groupId>org.everit.config</groupId>
-		<artifactId>org.everit.config.oss</artifactId>
-		<version>5.0.1</version>
-	</parent>
+  <parent>
+    <groupId>org.everit.config</groupId>
+    <artifactId>org.everit.config.oss</artifactId>
+    <version>5.0.1</version>
+  </parent>
 
-	<groupId>org.everit.osgi</groupId>
-	<artifactId>org.everit.osgi.authentication.api</artifactId>
-	<version>1.0.0-SNAPSHOT</version>
+  <groupId>org.everit.osgi</groupId>
+  <artifactId>org.everit.osgi.authentication.api</artifactId>
+  <version>0.1.0</version>
 
-	<packaging>bundle</packaging>
+  <packaging>bundle</packaging>
 
-	<properties>
-		<maven.compiler.source>1.7</maven.compiler.source>
-		<maven.compiler.target>1.7</maven.compiler.target>
-	</properties>
+  <properties>
+    <maven.compiler.source>1.7</maven.compiler.source>
+    <maven.compiler.target>1.7</maven.compiler.target>
+  </properties>
 
-	<build>
-		<plugins>
-			<plugin>
-				<groupId>org.apache.felix</groupId>
-				<artifactId>maven-bundle-plugin</artifactId>
-				<extensions>true</extensions>
-				<configuration>
-					<instructions>
-						<Bundle-SymbolicName>${project.artifactId}</Bundle-SymbolicName>
-						<Import-Package>
-							*
-						</Import-Package>
-						<Export-Package>
-							org.everit.osgi.authentication.api
-						</Export-Package>
-					</instructions>
-				</configuration>
-			</plugin>
-		</plugins>
-	</build>
+  <build>
+    <plugins>
+      <plugin>
+        <groupId>org.apache.felix</groupId>
+        <artifactId>maven-bundle-plugin</artifactId>
+        <extensions>true</extensions>
+        <configuration>
+          <instructions>
+            <Bundle-SymbolicName>${project.artifactId}</Bundle-SymbolicName>
+            <Import-Package>
+              *
+            </Import-Package>
+            <Export-Package>
+              org.everit.osgi.authentication.api
+            </Export-Package>
+          </instructions>
+        </configuration>
+      </plugin>
+    </plugins>
+  </build>
 
-	<dependencies>
-	</dependencies>
+  <dependencies>
+  </dependencies>
 
-	<distributionManagement>
-		<snapshotRepository>
-			<id>everit.public.snapshots</id>
-			<url>https://repo.everit.biz/artifactory/public-snapshot</url>
-		</snapshotRepository>
-	</distributionManagement>
+  <distributionManagement>
+    <snapshotRepository>
+      <id>everit.public.snapshots</id>
+      <url>https://repo.everit.biz/artifactory/public-snapshot</url>
+    </snapshotRepository>
+    <repository>
+      <id>everit.public.releases</id>
+      <url>https://repo.everit.biz/artifactory/public-release</url>
+    </repository>
+  </distributionManagement>
 
 </project>
