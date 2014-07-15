@@ -53,7 +53,7 @@
               *
             </Import-Package>
             <Export-Package>
-              org.everit.osgi.authentication.context.api
+              org.everit.osgi.authentication.context
             </Export-Package>
           </instructions>
         </configuration>
