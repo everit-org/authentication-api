@@ -35,8 +35,8 @@
   <packaging>bundle</packaging>
 
   <properties>
-    <maven.compiler.source>1.8</maven.compiler.source>
-    <maven.compiler.target>1.8</maven.compiler.target>
+    <maven.compiler.source>1.6</maven.compiler.source>
+    <maven.compiler.target>1.6</maven.compiler.target>
   </properties>
 
   <build>
@@ -63,16 +63,5 @@
 
   <dependencies>
   </dependencies>
-
-  <distributionManagement>
-    <snapshotRepository>
-      <id>everit.public.snapshots</id>
-      <url>https://repo.everit.biz/artifactory/public-snapshot</url>
-    </snapshotRepository>
-    <repository>
-      <id>everit.public.releases</id>
-      <url>https://repo.everit.biz/artifactory/public-release</url>
-    </repository>
-  </distributionManagement>
 
 </project>
