@@ -35,7 +35,7 @@
   <packaging>bundle</packaging>
 
   <name>Everit - Authentication Context API</name>
-  <description>Component for executing authenticated tasks and queri the actual owner of the running task.</description>
+  <description>Component for executing authenticated tasks and querying the actual owner of the running task.</description>
 
   <properties>
     <projectpath>authentication-context-api</projectpath>
