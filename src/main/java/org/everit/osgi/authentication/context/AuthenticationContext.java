@@ -23,14 +23,6 @@ package org.everit.osgi.authentication.context;
 public interface AuthenticationContext {
 
     /**
-     * The property key of the ID of the <a href="https://github.com/everit-org/resource">resource</a> assigned to the
-     * Default Resource ID. The Default Resource ID (a.k.a. guest or not authenticated resource) is the resource that is
-     * returned by the {@link #getCurrentResourceId()} method if there is no authenticated Resource ID assigned to the
-     * current thread. The value of this property is stored in the configuration.
-     */
-    String PROP_DEFAULT_RESOURCE_ID = AuthenticationContext.class.getName() + ".DEFAULT_RESOURCE_ID";
-
-    /**
      * Returns the current Resource ID of the actual thread or the default Resource ID (a.k.a. guest or not
      * authenticated resource) if there is no authenticated resource available.
      *
