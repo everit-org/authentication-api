@@ -10,7 +10,7 @@ the current thread.
  - [AuthenticationContext][4]: we can query the Resource ID of the actual 
  Thread or the configured Default Resource ID (aka Guest Resource ID)
 
-#How to use the Authentication Context API?
+#How to use the API?
 Usage examples are availbe [here][5].
 
 #Concept
