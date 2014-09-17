@@ -11,7 +11,7 @@ the current thread.
  Thread or the configured Default Resource ID (aka Guest Resource ID)
 
 #How to use the API?
-Usage examples are availbe [here][5].
+Usage examples are available [here][5].
 
 #Concept
 Full authentication concept is available on blog post [Everit Authentication][2].
