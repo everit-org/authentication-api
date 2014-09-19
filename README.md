@@ -15,6 +15,7 @@ Usage examples are available [here][5].
 
 #Concept
 Full authentication concept is available on blog post [Everit Authentication][2].
+Implemented components based on this concept are listed [here][6].
 
 #Implementation
 Available implementation is [authentication-context-ri][1].
@@ -24,3 +25,4 @@ Available implementation is [authentication-context-ri][1].
 [3]: http://attilakissit.wordpress.com/2014/07/09/everit-authentication/#authentication_propagator
 [4]: http://attilakissit.wordpress.com/2014/07/09/everit-authentication/#authentication_context
 [5]: http://attilakissit.wordpress.com/2014/07/09/everit-authentication/#using_ap_ac
+[6]: http://everitorg.wordpress.com/2014/07/31/everit-authentication-implemented-and-released-2/
