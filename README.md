@@ -20,6 +20,8 @@ Implemented components based on this concept are listed [here][6].
 #Implementation
 Available implementation is [authentication-context-ri][1].
 
+[![Analytics](https://ga-beacon.appspot.com/UA-15041869-4/everit-org/authentication-context-api)](https://github.com/igrigorik/ga-beacon)
+
 [1]: https://github.com/everit-org/authentication-context-ri
 [2]: http://everitorg.wordpress.com/2014/07/31/everit-authentication/
 [3]: http://attilakissit.wordpress.com/2014/07/09/everit-authentication/#authentication_propagator
