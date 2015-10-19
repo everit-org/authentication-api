@@ -2,6 +2,7 @@ language: java
 jdk:
   - oraclejdk8
 script: mvn bundle:install source:jar javadoc:jar
+install: true
 sudo: false
 cache:
   directories:
